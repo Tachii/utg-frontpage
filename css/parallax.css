@@ -1,0 +1,218 @@
+/* ============================================================
+ PRIMARY STRUCTURE
+ ============================================================ */
+html {
+	background-color: #f2f0f2;
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0;
+	padding: 0;
+	font-family: 'Michroma', sans-serif !important;
+	scroll-behavior: smooth;
+}
+body {
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0;
+	padding: 0;
+}
+
+a, a:visited {
+	color: #0196e3;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 120%;
+	min-height: 120%;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.sliders-container {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+.slider {
+	float: left;
+	width: 90%;
+	margin-right: -100%;
+	display: block;
+}
+
+.prev, .next {
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+.prev {
+	float: left !important;
+}
+
+.buttons .next {
+	float: right !important;
+}
+
+.container {
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.container h1 {
+	font-size: 2.2em;
+}
+
+.container-text {
+	text-align: left;
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 1.1em;
+}
+/* ============================================================
+ Parallax
+ ============================================================ */
+
+div.module.content {
+	background-color: #DAD8DA;
+	vertical-align: middle;
+	padding-top: 7%;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-left: 20px solid #F2F0F2;
+	border-right: 20px solid #F2F0F2;
+	font-weight: 300;
+	overflow: hidden;
+}
+div.module.parallax {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background: rgba(25, 25, 25, .5);
+	vertical-align: middle;
+	text-align: right;
+	background-image: url(../img/overlay-pattern.png);
+	background-repeat: repeat;
+	height: 30%;
+	color: #DAD8DA;
+	padding-top: 7%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.footer {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background: rgba(25, 25, 25, .5);
+	vertical-align: middle;
+	text-align: right;
+	background-image: url(../img/overlay-pattern.png);
+	background-repeat: repeat;
+	height: 15%;
+	color: #DAD8DA;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-style: italic;
+}
+
+.clearfix {
+	padding-top: 73.1%;
+	background-color: #f2f0f2;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background: rgba(25, 25, 25, .5);
+	background-image: url(../img/overlay-pattern.png);
+}
+
+#logo {
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#logo-img, #logo-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#logo-img {
+	height: 4.3 vw;
+}
+#logo-text {
+	font-size: 2vw;
+}
+
+#header {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+	color: #DAD8DA !important;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+/* ==== Dynamic Counter ==== */
+.counter-holder {
+	position: absolute;
+	width: 90%;
+	height: 20%;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%); /* Safari and Chrome */
+	-moz-transform: translate(-50%, -50%); /* Firefox */
+	-ms-transform: translate(-50%, -50%); /* IE 9 */
+	-o-transform: translate(-50%, -50%); /* Opera */
+}
+
+.counter-element-box {
+	width: 20%;
+	height: 100%;
+	float: left;
+	margin: 6%;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.counter-element-value {
+	width: 40%;
+	max-width: 40%;
+	height: 50%;
+	font-size: 2vw;
+	display: inline-block;
+	text-align: right;
+	font-family: 'Michroma', sans-serif !important;
+}
+
+.counter-element-text {
+	width: 40%;
+	max-width: 40%;
+	height: 50%;
+	font-size: 2vw;
+	display: inline-block;
+	text-align: left;
+	font-family: 'Michroma', sans-serif !important;
+}
